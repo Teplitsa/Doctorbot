@@ -1,6 +1,19 @@
-# TeploBot - Telegram Bot for WP
+=== TeploBot - Telegram Bot for WP ===
+Contributors: gsuvorov, foralien, denis.cherniatev
+Author URI: https://te-st.ru
+Plugin URI: https://teplobot.te-st.ru
+Tags: Telegram, telegram, bot, chatbot, messenger, robot
+Requires at least: 4.5
+Tested up to: 4.5.2
+Stable tag: trunk
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-**Описание на русском языке - ниже.**
+TeploBot simple Telegram chatbot with green effect.
+
+== Description ==
+
+_Описание на русском языке - ниже._
 
 *TeploBot - Telegram Bot for WP* is the plugin for WordPress that provides basic [Telegram](https://telegram.org/) chatbot functionality for your site. The bot sends search results from your site as reply to chat users. For developers: the behavior of the bot could be customized.
 
@@ -21,19 +34,7 @@ Plugin features:
 
 The plugin developed and supported by [Teplitsa. Technologies for Social Good](https://te-st.ru/).
 
-###How to install###
-
-Plugins requires PHP 5.3+ and WordPress 4.5+.
-
-Website should work with https protocol for connecting with Telegram, self-signed certificate allowed.
-
-1. Upload the plugin folder into `wp-content/plugins` using WordPress Dashboard (_Plugins -- Add new_) or by cloning GitHub-repo.
-
-2. Activate the plugin through the _Plugins_ menu in WordPress.
-
-3. Configure the plugin by going to the page _TeploBot -> Settings_ that appears in your admin menu.
-
-To set the plugin into work you need to create a Telegram bot in the dialogue with <a href="https://telegram.me/botfather" target="_blank">BotFather</a> user. Start chat with it and follow a few simple steps. Once you've created a bot you will received your authorization token, that should be saved in plugin settings.
+Follow the progress at [GitHub](https://github.com/Teplitsa/TeploBot)
 
 **Default commands**
 
@@ -50,26 +51,7 @@ Set "Active subscriptions" option to activate subscriptions to notifications.
 
 Commands should be defined in chat with [@BotFather](https://telegram.me/botfather) to be accepted by plugin: use `/setcommands` command and follow the instructions. 
 
-### Screenshots ###
-
-Plugin Settings
-
-![Plugin Settings](https://itv.te-st.ru/wp-content/uploads/gwptb-screenshot-1.png)
-
-Connection setup for the bot
-
-![Connection setup for the bot](https://itv.te-st.ru/wp-content/uploads/gwptb-screenshot-2.png)
-
-Log screen
-
-![Log screen](https://itv.te-st.ru/wp-content/uploads/gwptb-screenshot-3.png)
-
-Search results in chat
-
-![Search results in chat](https://itv.te-st.ru/wp-content/uploads/gwptb-screenshot-4.png)
-
-
-###Help the project###
+**Help the project**
 
 We will be very grateful if you help us to make TeploBot better.
 
@@ -78,7 +60,7 @@ We will be very grateful if you help us to make TeploBot better.
 * Translate the plugin into your language
 
 
-##Описание на русском языке##
+**РУССКИЙ**
 
 *TeploBot - Telegram Bot for WP* - плагин для WordPress, реализующий простого чатбота для [Телеграм](https://telegram.org/). Бот может автоматически отправлять результаты поиска по сайту в ответ на запрос пользователей и позволяет их просматривать. Для разработчиков: состав действий бота может быть расширен. 
 
@@ -99,22 +81,8 @@ We will be very grateful if you help us to make TeploBot better.
 
 Плагин разработан и поддерживается [Теплицей социальных технологий](https://te-st.ru/).
 
-### Установка и использование ###
+Следите за разработкой на [GitHub](https://github.com/Teplitsa/TeploBot)
 
-Для корректной работы необходим PHP версии 5.3 и выше и WordPress версии 4.5 и выше.
-
-Сайт должен поддерживать протокол https для взаимодействия с Telegram, допускается использование самоподписанного сертификата.
-
-1. Загрузите папку плагина в директорию `wp-content/plugins`, используя административный интерфейс добавления плагинов (_Плагины -- Добавить новый_)
-или клонировав GitHub-репозиторий.
-
-2. Активируйте плагин в списке плагинов (_Меню - Плагины_).
-
-3. Настройки плагина доступны в меню _TeploBot -> Настройки_. 
-
-Для начала работы необходимо создать нового бота в чате Телеграм с пользователем [@BotFather](https://telegram.me/botfather). Отправьте команду `/newbot` и следуйте инструкциям.
-
-В случае успешного создания бота вы получите ключ (токен) авторизации. Скопируйте и сохраните его в настройках плагина, после чего установите соединение с Телеграм. В этом режиме бот будет отвечать на запросы пользователей в чате, отправляя результаты поиска по сайту и позволяя их пролистывать. 
 
 **Стандартные команды**
 
@@ -131,10 +99,67 @@ We will be very grateful if you help us to make TeploBot better.
 
 Чтобы бот распознавал команды, они должны быть установлены в диалоге с [@BotFather](https://telegram.me/botfather): отправьте ему команду `/setcommands` и следуйте инструкциям. 
 
-### Помощь проекту ###
+
+**Помощь проекту**
 
 Мы очень ждем вашей помощи проекту. Вы можете помочь следующими способами:
 
-* Добавить сообщение об ошибке или предложение по улучшению на GitHub
-* Поделиться улучшениями кода, прислав нам Pull Request
+* Добавить сообщение об ошибке или предложение по улучшению на [GitHub](https://github.com/Teplitsa/TeploBot/issues/)
+* Поделиться улучшениями кода, послав нам Pull Request
 * Сделать перевод плагина или оптимизировать его для вашей страны.
+
+
+== Installation ==
+
+Plugins requires PHP 5.3+ and WordPress 4.5+.
+
+Website should work with https protocol for connecting with Telegram, self-signed certificate allowed.
+
+1. Upload the plugin folder into `wp-content/plugins` using WordPress Dashboard (_Plugins -- Add new_) or by cloning GitHub-repo.
+
+2. Activate the plugin through the _Plugins_ menu in WordPress.
+
+3. Configure the plugin by going to the page _TeploBot -> Settings_ that appears in your admin menu.
+
+To set the plugin into work you need to create a Telegram bot in the dialogue with <a href="https://telegram.me/botfather" target="_blank">BotFather</a> user. Start chat with it and follow a few simple steps. Once you've created a bot you will received your authorization token, that should be saved in plugin settings.
+
+**РУССКИЙ**
+
+Для корректной работы необходим PHP версии 5.3 и выше и WordPress версии 4.5 и выше.
+
+Сайт должен поддерживать протокол https для взаимодействия с Telegram, допускается использование самоподписанного сертификата.
+
+1. Загрузите папку плагина в директорию `wp-content/plugins`, используя административный интерфейс добавления плагинов (`Плагины -- Добавить новый`)
+или клонировав GitHub-репозиторий.
+
+2. Активируйте плагин в списке плагинов (`Меню - Плагины`).
+
+3. Настройки плагина доступны в меню _TeploBot -> Настройки_. 
+
+Для начала работы необходимо создать нового бота в чате Телеграм с пользователем [@BotFather](https://telegram.me/botfather). Отправьте команду `/newbot` и следуйте инструкциям.
+
+В случае успешного создания бота вы получите ключ (токен) авторизации. Скопируйте и сохраните его в настройках плагина, после чего установите соединение с Телеграм. В этом режиме бот будет отвечать на запросы пользователей в чате, отправляя результаты поиска по сайту и позволяя их пролистывать. 
+
+
+== Screenshots ==
+
+1. Страница настроек плагина
+2. Успешная настройка бота
+3. Лог сообщений
+4. Пример ответа с результатами поиска
+
+
+== Changelog ==
+= 1.2 =
+* New: Submit posts to WP site rigth from Telegram
+* New: Subscribe to notifications about new posts
+* New: API for sending notifications to subscribers
+
+= 1.1 =
+* New: Support for group chats
+* New: Support for custom commands
+* Fix: correct naming of the bot
+* Fix: some search request provide an incorrect results without notification
+
+= 1.0 =
+* First official release!
